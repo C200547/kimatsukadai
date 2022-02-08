@@ -11,6 +11,7 @@ error_reporting(E_ALL & ~E_NOTICE);
 /* */
 define('PWD_LENGTH',5);   // パスワード長
 define('PAGING',5);      // ページネーション単位
+define("LOGIN_FAILED_LIMIT", 3);
 
 
 
